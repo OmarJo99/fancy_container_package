@@ -11,29 +11,29 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Fancy container is simple package that allow you to customize the shape of your container
 
-## Features
+## Who Am I
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Omar Jourieh: A Student on Applied College in CS.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Use the package 
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Write FancyContainer only
 
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Exmaple:
+## FancyContainer(
+                    title: 'Omar',
+                    subtitle: 'Jourieh',
+                    height: 70,
+                    width: 150,
+                    color1: Colors.orange,
+                    color2: Colors.red,
+                    textcolor: Colors.white,
+                    subtitlecolor: Colors.white,
+                    padding: EdgeInsets.all(20),
+                  ),
